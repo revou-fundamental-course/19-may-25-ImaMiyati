@@ -1,0 +1,129 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+    color: #20dfd5;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px #00f7ff;
+}
+
+h1, h2 {
+    color: #00f7ff;
+    margin-bottom: 15px;
+}
+
+
+main {
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 255, 255, 0.05);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    margin-bottom: 50px; /* Biar gak mepet footer */
+}
+
+
+section, form {
+    margin-bottom: 30px;
+}
+
+
+form div {
+    margin-bottom: 20px;
+}
+
+
+form div:last-child {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #00f7ff;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #ff00ff;
+    box-shadow: 0 0 10px #ff00ff;
+}
+
+textarea {
+    min-height: 80px;
+    resize: none;
+}
+
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #00f7ff;
+}
+
+
+.bg-lightseagreen {
+    background: #00f7ff;
+    color: #000;
+}
+
+.bg-lightcoral {
+    background: #ff4f4f;
+    color: #fff;
+}
+
+.bg-lightblue {
+    background: #00aaff;
+    color: #fff;
+}
+
+
+.rumus-content {
+    font-size: 18px;
+    color: #ccc;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    color: #ccc;
+    margin-top: -20px;
+    padding-top: auto;
+}
